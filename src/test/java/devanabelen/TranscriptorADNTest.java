@@ -22,6 +22,11 @@ public class TranscriptorADNTest {
         TranscriptorADN transcriptor = new TranscriptorADN();
         assertEquals("U", transcriptor.transcribe("A"));
     }
+    @Test
+    public void testTranscribeThymineToAdenine() {
+        TranscriptorADN transcriptor = new TranscriptorADN();
+        assertEquals("A", transcriptor.transcribe("T"));
+}
 
 }
 
