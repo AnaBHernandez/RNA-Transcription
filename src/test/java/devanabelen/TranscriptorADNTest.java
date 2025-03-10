@@ -22,4 +22,6 @@ public class TranscriptorADNTest {
         TranscriptorADN transcriptor = new TranscriptorADN();
         assertEquals("U", transcriptor.transcribe("A"));
     }
+
 }
+
