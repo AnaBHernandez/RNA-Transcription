@@ -1,0 +1,29 @@
+# Archivos de compilación de Java
+/bin/
+*.class
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por Maven
+target/
+*.log
+*.iml
+*.jar
+*.war
+*.ear
+
+# Archivos de dependencias de Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+release.properties
+
+# Archivos de pruebas y configuraciones de entornos
+test-output/
+.idea/
